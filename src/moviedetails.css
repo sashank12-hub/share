@@ -1,0 +1,49 @@
+.details{
+    display: flex;
+    width: 100%;
+   
+    height: 100vh;
+    /* height: 100vh; */
+    
+    
+
+  background-image: url("https://assets.website-files.com/5e853c3383474026e43f2c78/5e85425605cae11f20d46181_denisse-leon-J7CjWufjmg4-unsplash.jpg");
+object-fit: cover;
+background-size: cover;
+background-repeat: no-repeat;
+    margin-right: 15%;
+    z-index: -1;
+}
+.body{ margin-top: 100px;
+    margin-left: 10;
+    padding-left: 10%;
+    margin-left: 15%;
+    background-color: rgba(255,255,255,0.13);
+    box-shadow: 2px  2px 2px 2px  rgba(0,0,0,0.43);
+    z-index:10;
+    height:400px;
+    width:70%;
+}
+.body p{
+    font-weight: 500;
+    font-size: 20px;
+ 
+    font-weight: 500;
+    font-size: 20px;
+}
+.btn{ 
+    padding: 10px;
+    color: white;
+    /* background-color: rgb(235,87,87); */
+    border-radius: 5px;
+    /* border: 5px solid black; */
+    background-color: rgba(0,0,0,.9);
+
+}
+.body h2{
+   
+    font-weight: 500;
+}
+.btn:hover{
+    cursor: pointer;
+}
